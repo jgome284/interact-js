@@ -1,7 +1,7 @@
 let readMore = document.getElementById('read-more');
 let moreInfo = document.getElementById('more-info');
 
-// Write your code here:
+:
 function showInfo() {
   moreInfo.style.display = 'block'
 }
@@ -25,7 +25,7 @@ let hide = function() {
 view.addEventListener('click', open);
 close.addEventListener('click', hide);
 
-// Write your code here
+
 let textChange = function() {
   view.innerHTML = 'Hello, World!'
 }
